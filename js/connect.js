@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         method: 'POST',
         body: formData
     })*/
-    fetch('https://formspree.io/f/mjgpvzrg', {
+    fetch('https://formspree.io/f/xeepqdrl', {
         method: 'POST',
         body: formData
     })
