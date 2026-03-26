@@ -9,7 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const formData = new FormData(form); // Get the form data
 
     // Send the form data using fetch
-    fetch('https://slammin-design.co.uk/connect.php', {
+   /* fetch('https://slammin-design.co.uk/connect.php', {
+        method: 'POST',
+        body: formData
+    })*/
+    fetch('https://formspree.io/f/mjgpvzrg', {
         method: 'POST',
         body: formData
     })
